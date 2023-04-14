@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.user,
+.column {
+    display: grid;
+}
+.users-container,
+.sort-container {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 1450px;
+    padding: 0 12px;
+    margin: 100px auto;
+}
+
+.img-fluid {
+    height: auto;
+    max-width: 100%;
+}
+
+.person-name {
+    font-size: 26px;
+}
+
+.person-age {
+    font-size: 20px;
+}
