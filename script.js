@@ -277,7 +277,7 @@ const genderFilterInputs = document.querySelectorAll('input[name="genderFilter"]
 function renderPeople(people) {
     const peopleHTML = people.map(person => `
     <div class="user">
-        <div><img src="${person.photo}" class="img-fluid" alt="${person.id}"></div>
+        <div class="person-photo"><img src="${person.photo}" class="img-fluid" alt="${person.id}"></div>
         <div class="person-name">${person.name}</div>
         <div class="person-age">${person.age}</div>
         <div class="person-gender">${person.gender}</div>
@@ -303,3 +303,13 @@ genderFilterInputs.forEach(input => {
         }
     });
 });
+
+const inputSearch = document.querySelector('#name');
+inputSearch.addEventListener('input', handleInput);
+
+function handleInput() {
+    const filterValue = inputSearch.value;
+    const filteredPersons = userRenderArr.filter(person => person.name.toLowerCase().includes(filterValue.toLowerCase()));
+    console.table(filteredPersons);
+    renderPeople(filteredPersons);
+  }
