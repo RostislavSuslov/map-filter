@@ -4,6 +4,7 @@ const userArr = [{
         age: 38,
         photo: 'img/photo-MarkZuckerberg.png',
         gender: 'male',
+        place: 'White-Plains, New York, USA'
     },
     {
         id: 2,
@@ -11,6 +12,7 @@ const userArr = [{
         age: 35,
         photo: 'img/photo-ClaireBoucher.png',
         gender: 'female',
+        place: 'Vancouver, British Columbia, Canada',
     },
     {
         id: 3,
@@ -18,6 +20,7 @@ const userArr = [{
         age: 21,
         photo: 'img/photo-TySimpkins.png',
         gender: 'male',
+        place: 'New York City, USA',
     },
     {
         id: 4,
@@ -25,6 +28,7 @@ const userArr = [{
         age: 26,
         photo: 'img/photo-TomHolland.png',
         gender: 'male',
+        place: 'London, England',
     },
     {
         id: 5,
@@ -32,6 +36,7 @@ const userArr = [{
         age: 67,
         photo: 'img/photo-BillGates.png',
         gender: 'male',
+        place: 'Seattle, Washington, USA',
     },
     {
         id: 6,
@@ -39,6 +44,7 @@ const userArr = [{
         age: 51,
         photo: 'img/photo-ElonMusk.png',
         gender: 'male',
+        place: 'Pretoria, South Africa',
     },
     {
         id: 7,
@@ -46,6 +52,7 @@ const userArr = [{
         age: 37,
         photo: 'img/photo-TalulahJane.png',
         gender: 'female',
+        place: 'Hertford, Hertfordshire, England',
     },
     {
         id: 8,
@@ -53,6 +60,7 @@ const userArr = [{
         age: 74,
         photo: 'img/photo-BernardArnault.png',
         gender: 'male',
+        place: 'Roubaix, France',
     },
     {
         id: 9,
@@ -60,6 +68,7 @@ const userArr = [{
         age: 59,
         photo: 'img/photo-JeffBezos.png',
         gender: 'male',
+        place: 'Albuquerque, New Mexico, USA',
     },
     {
         id: 10,
@@ -67,6 +76,7 @@ const userArr = [{
         age: 48,
         photo: 'img/photo-ToscaMusk.png',
         gender: 'female',
+        place: 'Pretoria, South Africa',
     },
     {
         id: 11,
@@ -74,6 +84,7 @@ const userArr = [{
         age: 56,
         photo: 'img/photo-SteveJobs.png',
         gender: 'male',
+        place: 'San Francisco, California, USA',
     },
     {
         id: 12,
@@ -81,6 +92,7 @@ const userArr = [{
         age: 36,
         photo: 'img/photo-AmberHeard.png',
         gender: 'female',
+        place: 'Austin, Texas, USA',
     },
     {
         id: 13,
@@ -88,6 +100,7 @@ const userArr = [{
         age: 59,
         photo: 'img/photo-LaurenePowell.png',
         gender: 'female',
+        place: '',
     },
     {
         id: 14,
@@ -95,6 +108,7 @@ const userArr = [{
         age: 24,
         photo: 'img/photo-EveJobs.png',
         gender: 'female',
+        place: '',
     },
     {
         id: 15,
@@ -102,6 +116,7 @@ const userArr = [{
         age: 68,
         photo: 'img/photo-ChrisannBrennan.png',
         gender: 'female',
+        place: '',
     },
     {
         id: 16,
@@ -109,6 +124,7 @@ const userArr = [{
         age: 30,
         photo: 'img/photo-CaraDelevingne.png',
         gender: 'female',
+        place: '',
     },
     {
         id: 17,
@@ -116,6 +132,7 @@ const userArr = [{
         age: 40,
         photo: 'img/photo-CamGigandet.png',
         gender: 'male',
+        place: '',
     },
     {
         id: 18,
@@ -123,6 +140,7 @@ const userArr = [{
         age: 41,
         photo: 'img/photo-SeanFaris.png',
         gender: 'male',
+        place: '',
     },
     {
         id: 19,
@@ -130,6 +148,7 @@ const userArr = [{
         age: 41,
         photo: 'img/photo-PennBadgley.png',
         gender: 'male',
+        place: '',
     },
     {
         id: 20,
@@ -137,6 +156,7 @@ const userArr = [{
         age: 38,
         photo: 'img/photo-CamilleVasquez.png',
         gender: 'female',
+        place: '',
     },
     {
         id: 21,
@@ -144,6 +164,7 @@ const userArr = [{
         age: 32,
         photo: 'img/photo-MargotRobbie.png',
         gender: 'female',
+        place: '',
     },
     {
         id: 22,
@@ -151,6 +172,7 @@ const userArr = [{
         age: 38,
         photo: 'img/photo-ScarlettJohansson.png',
         gender: 'female',
+        place: '',
     },
     {
         id: 23,
@@ -158,6 +180,7 @@ const userArr = [{
         age: 47,
         photo: 'img/photo-AngelinaJolie.png',
         gender: 'female',
+        place: '',
     },
     {
         id: 24,
@@ -165,6 +188,7 @@ const userArr = [{
         age: 37,
         photo: 'img/photo-GalGadot.png',
         gender: 'female',
+        place: '',
     },
     {
         id: 25,
@@ -172,6 +196,7 @@ const userArr = [{
         age: 36,
         photo: 'img/photo-VitoSchnabel.png',
         gender: 'male',
+        place: '',
     },
     {
         id: 26,
@@ -179,6 +204,7 @@ const userArr = [{
         age: 26,
         photo: 'img/photo-DylanMinnette.png',
         gender: 'male',
+        place: '',
     },
     {
         id: 27,
@@ -186,6 +212,7 @@ const userArr = [{
         age: 29,
         photo: 'img/photo-AnselElgort.png',
         gender: 'male',
+        place: '',
     },
     {
         id: 28,
@@ -193,6 +220,7 @@ const userArr = [{
         age: 27,
         photo: 'img/photo-TimothéeChalame.png',
         gender: 'male',
+        place: '',
     },
     {
         id: 29,
@@ -200,6 +228,7 @@ const userArr = [{
         age: 30,
         photo: 'img/photo-JoshHutcherson.png',
         gender: 'male',
+        place: '',
     },
     {
         id: 30,
@@ -207,6 +236,7 @@ const userArr = [{
         age: 29,
         photo: 'img/photo-AimeeWood.png',
         gender: 'female',
+        place: '',
     },
     {
         id: 31,
@@ -214,6 +244,7 @@ const userArr = [{
         age: 26,
         photo: 'img/photo-ChloëMoretz.png',
         gender: 'female',
+        place: '',
     },
     {
         id: 32,
@@ -221,6 +252,7 @@ const userArr = [{
         age: 24,
         photo: 'img/photo-MimiKeene.png',
         gender: 'female',
+        place: '',
     },
     {
         id: 33,
@@ -228,6 +260,7 @@ const userArr = [{
         age: 25,
         photo: 'img/photo-ElleFanning.png',
         gender: 'female',
+        place: '',
     },
     {
         id: 34,
@@ -235,6 +268,7 @@ const userArr = [{
         age: 29,
         photo: 'img/photo-DakotaFanning.png',
         gender: 'female',
+        place: '',
     },
     {
         id: 35,
@@ -242,6 +276,7 @@ const userArr = [{
         age: 27,
         photo: 'img/photo-JusticeSmith.png',
         gender: 'male',
+        place: '',
     },
     {
         id: 36,
@@ -249,6 +284,7 @@ const userArr = [{
         age: 16,
         photo: 'img/photo-IsabellaSermon.png',
         gender: 'female',
+        place: '',
     },
     {
         id: 37,
@@ -256,6 +292,7 @@ const userArr = [{
         age: 45,
         photo: 'img/photo-OmarSy.png',
         gender: 'male',
+        place: '',
     },
 ]
 
@@ -312,7 +349,8 @@ window.addEventListener('load', function () {
 
         // если гендер не all
         filtered = userArr.filter(person => {
-            return person.age <= initialState.age && person.gender === initialState.gender //фильтрует по возрасту и гендеру, гендер записывается по клику на чекбокс ниже в функции
+            return person.age <= initialState.age && person.gender === initialState.gender //фильтрует по возрасту и гендеру, 
+            //гендер записывается по клику на чекбокс ниже в функции
         })
 
         renderTemplate(filtered) // рендерим
